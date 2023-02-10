@@ -1,0 +1,137 @@
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url("images/360_F_435081753_xs8LPxNJK3x0qIECSc3E1ZUMXHKkzk6n.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #122c4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.panel {
+  color: #0861c1;
+  opacity: 80%;
+  border-radius: 50px;
+  padding: 15px 25px;
+  width: 900%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #eceef1;
+  color: aliceblue;
+}
+.pricing-plan:last-child {
+  border-bottom: none;
+  color: antiquewhite;
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricing-features {
+  margin: 50px 0 25px;
+  color: #0861c1;
+}
+
+.pricing-features-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #e1f1ff;
+}
+
+.pricing-features-item:last-child{
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+  color: #e7e9ec; 
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+
+@media (min-width: 900px){
+  .panel {
+    flex-direction: row;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+.sideimg {
+  width: 140px;
+  height: 130px;
+}
+.btnx {
+  background-color: #269aff;
+  color: white;
+  height: 50px;
+  width: 140px;
+  border: 2px solid #3b4aad;
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #ebedf0;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+}
+
+.btnx:hover {
+  background-color: #d6e4f0;
+  color: rgb(73, 82, 125);
+}
+.btnxside{
+  background-color: transparent;
+
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #ebedf0;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+
+}
+.btnxside:hover {
+  background-color: #d6e4f0;
+  color: rgb(73, 82, 125);
+}

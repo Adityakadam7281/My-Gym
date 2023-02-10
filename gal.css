@@ -1,0 +1,49 @@
+nav {
+    opacity: 90%;
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    height: 15vh;
+    color: rgb(104, 112, 171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    transition: background-color 400ms ease-in-out;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color:  rgb(104, 112, 171);
+    font-weight: bold;
+  }
+  
+  nav .menu a:first-child {
+    color:  rgb(104, 112, 171);
+  }
+  nav:hover{
+    background-color: #d6e4f0;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  img{
+    width: 380px;
+    height: 380px;
+    padding: 13px;
+  }
+  body{
+    background-color: aliceblue;
+  }

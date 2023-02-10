@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(40, 40, 54);
+}
+.bye{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 300px;
+    height: 300px;
+}
+.bye:hover{
+    opacity: 70%;
+}
+.log {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 80px;
+
+  }

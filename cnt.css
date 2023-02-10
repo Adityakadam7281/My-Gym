@@ -1,0 +1,59 @@
+nav {
+    opacity: 90%;
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    height: 15vh;
+    color: rgb(104, 112, 171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    transition: background-color 400ms ease-in-out;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color:  rgb(104, 112, 171);
+    font-weight: bold;
+  }
+  
+  nav .menu a:first-child {
+    color:  rgb(104, 112, 171);
+  }
+  body{
+    background-image: url(images/beastin-gym-and-fitness-adajan-dn-surat-gyms-lnutigglue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hhh{
+    color:rgb(22, 22, 24);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+  }
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(24, 24, 24);
+  }
+  #inst{
+    height: 30px;
+    width: 30px;
+  }
+  #vvv{
+    height: 30px;
+    width: 30px;
+  }
+  nav:hover{
+    background-color: #d6e4f0;
+  }

@@ -1,0 +1,154 @@
+  body{
+    
+  }
+  header {
+    width: 100%;
+    height: 100vh;
+    
+  }
+  
+  nav {
+    opacity: 70%;
+    background-color: aqua;
+    width: 100%;
+    height: 15vh;
+    background: rgb(0, 0, 0);
+    color: rgb(31, 38, 87);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    transition: background-color 400ms ease-in-out;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: rgb(31, 38, 87);
+    font-weight: bold;
+  }
+  
+  nav .menu a:first-child {
+    color: rgb(31, 38, 87);
+  }
+  
+  main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url("images/istockphoto-1322158059-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  section h3 {
+    color: #9dd1ff;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  section h1 {
+    color: rgb(193, 198, 233);
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  section p {
+    color: #9dd1ff;
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  section .btnone {
+    /*background: #00b894;*/
+    background: #fff;
+    color: #000;
+  }
+  
+  section .btntwo {
+    background-color: transparent;
+
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: rgb(31, 38, 87);
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+  }
+  
+  .btntwo:hover {
+    
+        background-color: #d6e4f0;
+        color: rgb(73, 82, 125);
+      }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: rgb(31, 38, 87);
+  }
+  nav:hover{
+    background-color: #d6e4f0;
+  }
+  .rrr {
+    opacity: 70%;
+    height: 100px;
+    width: 120px;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Back";
+    }
+    20% {
+      content: "Chest";
+    }
+    35% {
+      content: "BICEPS";
+    }
+    60% {
+      content: "Triceps";
+    }
+    80% {
+      content: "Legs";
+    }
+    100% {
+      content: "shoulders";
+    }
+  }

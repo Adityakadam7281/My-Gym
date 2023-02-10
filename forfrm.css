@@ -1,0 +1,53 @@
+body{
+    background-image: url(images/image_1345228934.jpg);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.panel {
+    
+    margin-top: 50px;
+    opacity: 80%;
+    background-color: aliceblue;
+    color:rgb(35, 89, 150) ;
+    border-radius: 50px;
+    padding: 55px 255px;
+    border-left: 300px;
+    width: 900px;
+    max-width: 1300px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    
+
+  }
+  .btn1 {
+    
+    color: aliceblue;
+    background-color: rgb(35, 89, 150);
+    text-align: center;
+    font-size: larger;
+    height: 40px;
+    width: 90px;
+    border-radius: 15%;
+
+
+  }
+  .btn1:hover {
+    background-color: #d6e4f0;
+    color: rgb(73, 82, 125);
+  }
+  .log {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 80px;
+
+  }
